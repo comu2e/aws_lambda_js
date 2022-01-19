@@ -24,4 +24,4 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: ap-northeast-1
       - name: Deploy AWS Lambda
-        run: aws lambda update-function-code --function-name ${{env.APP_NAME}} --zip-file fileb://dit/node_modules/dist.zip
+        run: aws lambda update-function-code --function-name ${{env.APP_NAME}} --zip-file fileb://dist/node_modules/dist.zip
