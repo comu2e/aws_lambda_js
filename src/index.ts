@@ -8,7 +8,7 @@ export const handler = (
   const response = {
     statusCode: 200,
     body: JSON.stringify({
-      message: 'This is a lambda testing'
+      message: 'This is a lambda 2'
     })
   };
 
