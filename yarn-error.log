@@ -1,0 +1,31 @@
+Arguments: 
+  /usr/local/Cellar/node/17.3.1/bin/node /usr/local/Cellar/yarn/1.22.17_2/libexec/bin/yarn.js init
+
+PATH: 
+  /Users/eiji/.asdf/shims:/usr/local/Cellar/asdf/0.9.0/libexec/bin:/usr/local/opt/libpq/bin:/Users/eiji/go/bin:/usr/local/opt/libpq/bin:/Users/eiji/.goenv/shims:/usr/local/opt/libpq/bin:/Users/eiji/.goenv/bin:/usr/local/opt/libpq/bin:/Users/eiji/.asdf/shims/cargo:/usr/local/opt/libpq/bin:/Users/takahashi.eiji/.pyenv/bin:/usr/local/opt/libpq/bin:/usr/local/bin:/usr/local/opt/libpq/bin:/usr/bin:/usr/local/opt/libpq/bin:/bin:/usr/local/opt/libpq/bin:/usr/sbin:/usr/local/opt/libpq/bin:/sbin:/usr/local/opt/libpq/bin:/Library/Apple/usr/bin:/usr/local/opt/libpq/bin:/usr/local/go/bin:/usr/local/opt/libpq/bin:/usr/local/MacGPG2/bin:/usr/local/opt/libpq/bin:/usr/local/opt/libpq/bin:/usr/local/opt/libpq/bin:/usr/local/opt/libpq/bin:/usr/local/opt/libpq/bin:/Users/eiji/.goenv/shims:/usr/local/opt/libpq/bin:/Users/eiji/.goenv/bin:/usr/local/opt/libpq/bin:/Users/eiji/go/go:/usr/local/opt/libpq/bin:/Users/eiji/.cargo/bin:/Users/eiji/go/go:/Users/eiji/.cargo/bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  17.3.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/eiji/private/aws_lambda/package.json: Unexpected end of JSON input
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.22.17_2/libexec/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.22.17_2/libexec/lib/cli.js:310:30)
+      at /usr/local/Cellar/yarn/1.22.17_2/libexec/lib/cli.js:321:13
+
+npm manifest: 
+  
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

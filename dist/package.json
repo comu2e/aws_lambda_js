@@ -1,0 +1,17 @@
+{
+  "name": "aws_lambda",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "sh ./build.sh"
+  },
+  "main": "src/index.ts",
+  "repository": "https://github.com/comu2e/aws_lambda_js",
+  "author": "comu2e <comu2e@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.90",
+    "@types/node": "^17.0.10",
+    "typescript": "^4.5.4"
+  }
+}
