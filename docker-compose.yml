@@ -1,0 +1,7 @@
+version: '3'
+services:
+  lambda:
+    container_name: aws_lambda_deploy
+    build:
+      context: .docker
+      dockerfile: Dockerfile
